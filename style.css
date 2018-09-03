@@ -1,0 +1,162 @@
+@font-face{
+	font-family: "Learning Curve Pro";
+	src:url("fonts/LearningCurvePro.woff");
+}
+/*@media only screen and (max-width: 600px) {
+  div  {
+       width:100%;
+       display:block;
+       }
+  div div{
+       	width:100%;
+       	margin:0px;
+       	display:block;
+      clear:both;
+       }
+     .headerDiv{
+     	width:100%;
+     	display:block;
+     }
+}*/
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	overflow:auto;
+
+}
+.logo
+{
+	width:40%;
+	float:left;
+	height:80%;
+
+}
+.header{
+	width:60%;
+	float:left;
+	height:80%;
+
+}
+.logo_img{
+	width: 53%;
+height: 90%;
+float: right;
+}
+.text{
+font-family: "Learning Curve Pro";
+
+font-size: 2em;
+
+font-weight: bold;
+
+font-weight: bold;
+
+word-spacing: 5px
+}
+.search{
+	margin-left: 10px;
+background-image: url("images/top_search.png");
+background-repeat: no-repeat;
+background-position: right;
+width: 22%;
+height: 20%;
+border-radius: 4px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.headerDiv{
+    width: 100%;
+    margin-top: 22px;
+    padding-left: 97px;
+}
+.nav{
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.nav nav a{
+text-decoration: none;
+color:gray;
+font-size:1em;
+margin-left:20px;
+}
+.bar{
+	overflow: auto;
+	background-color:gray;
+	text-align:center;
+}
+.folder{
+	width:30%;
+	float:left;
+}
+.folder_img{
+	width: 15%;
+
+vertical-align: middle;
+
+float: right;
+
+margin-top: 5px;
+
+margin-bottom: 5px;
+}
+.folder_text{
+	width:40%;
+	
+	float:left;
+}
+.folder_text1{
+	color: white;
+font-size: 1.3em;
+font-weight: bold;
+float: left;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.folder_btn{
+	width:30%;
+	float:left;
+}
+.btn{
+	width: 50%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.backImg{
+	background-image: url("images/hbg2.png");
+	background-repeat: no-repeat;
+	height:30em;
+
+}
+.btnImg{
+	width: 50%;
+    float: left;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+/*.smallDiv{
+	width: 5em;
+    height: 5em;
+    margin: auto;
+    background-color: green;
+    opacity: 0.5;
+}
+.textDiv{
+	width:50%;
+	float:left;
+
+}
+.playBtn{
+	margin:auto;
+}*/
