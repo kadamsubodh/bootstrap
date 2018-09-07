@@ -1,0 +1,139 @@
+@font-face{
+	font-family:"satisfy_regular";
+	src:url("fonts/satisfy-regular.ttf");
+}
+.wrapper{
+	max-width: 1140px;
+	margin:0 auto;
+	width:70%;
+}
+.text{
+	font-family: "satisfy_regular";
+font-size: 1.8em;
+margin-left: 30px;
+}
+.marginTop{
+	margin-top:35px;
+}
+.search{
+background-image: url("images/top_search.png");
+background-position: right center;
+background-size: auto 15px;
+background-repeat: no-repeat;
+margin-left: -15px;
+}
+.divBack{
+	background-color: gray;
+	color:white;
+	font-size:1.4em;
+}
+.btnBack{
+	background-color: #4D4D4D;
+	color:white;
+	border:2px solid white;
+}
+nav a{
+	text-decoration: none !important;
+	color:gray;
+	padding-left:2px;
+}
+.divBack1{
+	background-image: url("images/hbg2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.left{
+	float:left;
+}
+.center{
+	text-align:center;
+}
+.playBtn{
+	background: rgba(147, 201, 57, 0.7) repeat scroll 0% 0%;
+padding: 3% 5%;
+margin-left: 60%;
+margin-top: 6%;
+}
+.marginDiv{
+	margin:10% auto;
+}
+.button{
+	background-color: #98CF4A;
+padding: 1rem 3rem;
+color: #FFF;
+font-size:1.3em;
+border-color:white;
+}
+.marginRow{
+	margin:3% auto;
+	width:70%;
+}
+.checked{
+	list-style-image:url("images/arrow1.png");
+
+}
+.divBack2{
+	background-image:url("images/hbg5.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.textWhite{
+	color:white;
+}
+.outer {
+    position: relative;
+	border: 5px solid #B8E934;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	display: inline-block;
+}
+
+.inner {
+    background-color:transparent;
+    top: 12%; left:12%; /* of the container */
+    width:75%; /* of the container */
+    height:75%; /* of the container */
+    position: relative;
+    border:1px solid white;
+    border-radius: 50%;
+}
+.stepbar{
+	list-style-type:none;
+
+}
+.stepbar li{
+	display:inline-block;
+}
+
+.stepbar li::after{
+	content:url("images/dotted-line.png");
+
+}
+.stepbar li:last-child:after{
+	content:none;
+}
+figure{
+	display: inline-block;
+vertical-align: middle;
+}
+.divBack3{
+	background-image:url("images/hbg6.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.groupIcon{
+	width:30%;
+	border-radius: 50%;
+	margin:5% auto;
+}
+.subDivBack{
+	background-color: white;
+	margin:2%;
+	height:35em;
+}
+.wrapper1{
+	max-width: 1140px;
+	margin:0 auto;
+	width:70%;
+}
